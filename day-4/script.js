@@ -35,6 +35,18 @@ bj() //or f()()
 
 f()()();
 
+setInterval(function(){
+    console.log("Hello,world!");
+
+},5000);
+
+//self invoking function
+(function(){
+    console.log("IIFE");
+})();
+
+//advantage of iife
+//to obtain data privacy..it can be accessed only where it is defined..don't give access to call anywhere..
 
 
 
