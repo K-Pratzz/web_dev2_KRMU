@@ -17,3 +17,28 @@ let year=2026;
 let y= (year%4==0 && year%100!=0) || (year%400==0) ?"yes":"no";
 console.log(y);
 
+//first class function
+//inn this we can pass a function to variable and we are treating the variable as a function..
+//we can pass a function as an argument inside other func
+//it can reurn a function from a function(all 3 required)
+function f(){
+    console.log("ddddddddddddddddddddddddddddbilllllllll")
+    return function p(){
+        console.log("demo")
+        return function y(){
+            console.log("cruuuuuuuuuuuhiiiiiiiiiiiiiiiiiii")
+        }
+    }
+}
+let bj=f();
+bj() //or f()()
+
+f()()();
+
+
+
+
+
+
+
+
