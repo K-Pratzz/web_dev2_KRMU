@@ -46,7 +46,10 @@ setInterval(function(){
 })();
 
 //advantage of iife
-//to obtain data privacy..it can be accessed only where it is defined..don't give access to call anywhere..
+//to obtain data privacy..it can be accessed only where it is defined..don't give access to call anywhere.. 
+//set timeout vs set interval
+
+
 
 
 
