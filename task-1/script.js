@@ -11,10 +11,8 @@ for(let i=0;i<task2.length;i++){
 }
 
 const m=document.querySelector("#prof p")
-m.style.backgroundColor="cyan";
+//m.style.backgroundColor="cyan";
 console.log(task2.length)
-
-const content=document.getElementById("proof");
-const t=content.querySelectorAll("p");
-
+const content=document.getElementById("prof");
+const t=content.querySelector("p");
 t.style.color="brown";
