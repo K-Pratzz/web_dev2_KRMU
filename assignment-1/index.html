@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"></link>
+</head>
+<body>
+    <h1>🎯Smart Event Dashboard</h1>
+    <div id="outer">
+        <div id="inner1">
+            <div id="child1">
+                <h2>Add New Event</h2>
+                <label for="title">Event Title : </label><br>
+                <input type="text" name="title" placeholder="Enter Title" id="title"><br>
+                <label for="date">Event Date : </label><br>
+                <input type="date" name="date" placeholder="dd/mm/yyyy" id="date"><br>
+                <label for="category">Category : </label><br>
+                <select id="category" name="options">
+                    <option value="x">xxxxxxxxxxxxx</option>
+                    <option value="y">y</option>
+                    <option value="x">z</option>
+                    <option value="y">a</option>
+                    <option value="x">b</option>
+                    <option value="y">c</option>
+                    
+                </select><br>
+                <label for="description">Description : </label><br>
+                <textarea id="description" rows="4" cols="33" placeholder="Type Description"></textarea><br>
+                <button id="addEvent">Add Event</button>
+            </div>
+            <div id="child2">
+                <h2>My Events</h2>
+                <button id="clear">Clear All Events</button> 
+                <button id="addSample">Add Sample Events</button>
+                <div>
+                    <p>No events yet.Add your first event!</p>
+                </div>
+            </div>
+
+        </div>
+        <div id="last">
+            <h2>DOM Manipulation Demo</h2>
+            <div id="keys">You Pressed : </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
