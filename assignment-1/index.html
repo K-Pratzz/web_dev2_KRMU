@@ -12,12 +12,12 @@
         <div id="inner1">
             <div id="child1">
                 <h2>Add New Event</h2>
-                <label for="title">Event Title : </label><br>
-                <input type="text" name="title" placeholder="Enter Title" id="title"><br>
-                <label for="date">Event Date : </label><br>
-                <input type="date" name="date" placeholder="dd/mm/yyyy" id="date"><br>
-                <label for="category">Category : </label><br>
-                <select id="category" name="options">
+                <label for="eventTitle">Event Title : </label><br>
+                <input type="text" name="title" placeholder="Enter Title" id="eventTitle"><br>
+                <label for="eventDate">Event Date : </label><br>
+                <input type="eventDate" name="date" placeholder="dd/mm/yyyy" id="eventDate"><br>
+                <label for="eventCategory">Category : </label><br>
+                <select id="eventCategory" name="options">
                     <option value="Conference">Conference</option>
                     <option value="Workshop">Workshop</option>
                     <option value="Social">Social</option>
@@ -25,14 +25,14 @@
                     <option value="Meetup">Meetup</option>
                     
                 </select><br>
-                <label for="description">Description : </label><br>
-                <textarea id="description" rows="4" cols="33" placeholder="Type Description"></textarea><br>
-                <button id="addEvent">Add Event</button>
+                <label for="eventDescription">Description : </label><br>
+                <textarea id="eventDescription" rows="4" cols="33" placeholder="Type Description"></textarea><br>
+                <button type="submit">Add Event</button>
             </div>
             <div id="child2">
                 <h2>My Events</h2>
-                <button id="clear">Clear All Events</button> 
-                <button id="addSample">Add Sample Events</button>
+                <button id="clearAllBtn">Clear All Events</button> 
+                <button id="addSampleBtn">Add Sample Events</button>
                 <div>
                     <p>No events yet.Add your first event!</p>
                 </div>

@@ -1,13 +1,13 @@
 //target the froms .\, button 
 
-const title=document.getElementById("title");
-const date=document.getElementById("date");
-const category=document.getElementById("category");
-const description=document.getElementById("description");
+const title=document.getElementById("eventTitle");
+const date=document.getElementById("eventDate");
+const category=document.getElementById("eventCategory");
+const description=document.getElementById("eventDescription");
 
-const addEvent=document.getElementById("addEvent");
-const clear=document.getElementById("clear");
-const addSample=document.getElementById("addSample");
+
+const clear=document.getElementById("clearAllBtn");
+const addSample=document.getElementById("addSampleBtn");
 
 let sampleEvent=[{
     name :"KPratzz",
