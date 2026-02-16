@@ -46,7 +46,7 @@ function addEvent(title, date, category, desc) {
     eventsList.appendChild(card);
 }
 
-form.addEventListener("submit", function (e) {
+form.addEventListener("submit",(e)=> {
     e.preventDefault();
 
     addEvent(
@@ -76,19 +76,4 @@ sampleBtn.addEventListener("click", function () {
     );
 });
 
-
-eventsList.addEventListener("click", function (event) {
-    if (event.target.classList.contains("delete-btn")) {
-        event.target.parentElement.remove();
-
-        if (eventsList.children.length === 0) {
-            eventsList.innerHTML = `<p id="emptyMsg">No events yet. Add your first event!</p>`;
-        }
-    }
-});
-
-
-clearBtn.addEventListener("click", function () {
-    eventsList.innerHTML = `<p id="emptyMsg">No events yet. Add your first event!</p>`;
-});
 
