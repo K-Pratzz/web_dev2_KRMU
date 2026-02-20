@@ -17,6 +17,16 @@
     -anonymous function
     -self invoking function (IIFE)
 8.difference between spread operator and rest parameter    
+
+rest copies the elements in other conrtainer..while rest is used as an parameter in a function..that stores the values in one container 
+function x(host,...guest){
+    console.log(guest.length) =["g1","g2"]
+}
+x("host","g1","g2")
+
+
+
+
 9. what is nullish coalescing operator
 10.difference between setInterval and setTimeout.
 11.what is dom
