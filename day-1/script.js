@@ -16,6 +16,15 @@ demo()
 // return ek he baar use hota aur uski value ko console karana padta hai
 // yeh arrow function me nahi kar sakte usme by default return hota hai
 // arrow function doesn't need a return statement
+//for default return in arrow function we can directly write the value without using the return keyword
+//for using return statement use curly braces else not
+const y=(a,b)=>a+b;
+console.log(y(2,3))
+
+const x=(a,b)=>{
+    return a+b;
+}
+console.log(x(2,3));
 
 function demo(){
  return "hello world";

@@ -10,4 +10,5 @@ parr[1].style.color="green";
 parr[1].textContent="HIIIIIIIIIII PRATZZ"
 
 const qs=document.querySelector("#c p")
-qs.textContent="1233333333333333";
+qs.textContent="1233333333333333"; //gets even hideen elements..but innertext gets only the visible elements
+

@@ -12,7 +12,7 @@ const courseinput=document.getElementById("course");
 const output=document.getElementById("output");
 
 form.addEventListener("submit",(event)=>{
-    event.preventDefault();
+    event.preventDefault(); //prevents the form from from submiting and refrehing
     const name=textinput.value;
     const course=courseinput.value;
     console.log(name);

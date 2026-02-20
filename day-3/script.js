@@ -63,6 +63,8 @@ while(arr1.length>0){
 }
 console.log(unique);
 
+
+
 //move all zeroes to the end of an array
 
 let arr2=[0,1,3,0,5,7,0,9,0,2];

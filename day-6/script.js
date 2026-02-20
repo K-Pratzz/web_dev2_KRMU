@@ -27,8 +27,10 @@ console.log(Object.entries(user))
 
 //find the winner 
 
-Object.seal(user) //we can not add or modify but in seal we can modify but not add
+Object.seal(user) //we can not add or delete any property but we can modify the values of the sxiting ones
+
 user.name="kpppppppppppppppppp";
+Object.freeze(user)//we cant add new propety , change value of existing or delte existing property
 
 console.log(user.name)
 //console.log(user.moi)
