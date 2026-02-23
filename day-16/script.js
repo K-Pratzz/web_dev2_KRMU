@@ -19,7 +19,7 @@
 // })
 // console.log("last");
 
-const options = {method: 'GET', headers: {Authorization: 'Bearer zpka_6c51b610bf044abdbad944bdc7a2ccad_b46eb199'}};
+const options = {method: 'GET', headers: {Authorization: 'Bearer YOUR_APIKEY'}};
 
 fetch('https://dataservice.accuweather.com/currentconditions/v1/202345', options)
   .then(response => response.json())
