@@ -19,11 +19,11 @@
 // })
 // console.log("last");
 
-const options = {method: 'GET', headers: {Authorization: 'Bearer YOUR_APIKEY'}};
+//const options = {method: 'GET', headers: {Authorization: 'Bearer zpka_6c51b610bf044abdbad944bdc7a2ccad_b46eb199'}};
 
-fetch('x', options)
-  .then(response => response.json())
-  .then(response => console.log(response))
-  .catch(err => console.error(err));
+// fetch('https://dataservice.accuweather.com/currentconditions/v1/202345', options)
+//   .then(response => response.json())
+//   .then(response => console.log(response))
+//   .catch(err => console.error(err));
   
 //202396 delhi
