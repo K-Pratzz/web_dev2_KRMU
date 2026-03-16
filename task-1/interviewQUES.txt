@@ -25,9 +25,23 @@ function x(host,...guest){
 x("host","g1","g2")
 
 
-
-
 9. what is nullish coalescing operator
 10.difference between setInterval and setTimeout.
 11.what is dom
 12.diff bw get element by id and classname
+
+promise conumer.then- when the the promise is reloved it will go to the .then method else when rejected
+it will go to .catch methods
+
+13. diff between textcontent innertext and inner html
+
+ -----------------EXPLANATION AND CODE----------------
+ dom traversal methods
+ addeventListener 
+ what is execution context and call stack
+ what is event loop and how it executes ascnronous codes
+ what is callback its disadvantages..
+ explain the lifeycle of promise ..state and consumers and how it manages asynchronous functions
+better than callback hell
+what is promise chaining and disadvantages of it 
+
